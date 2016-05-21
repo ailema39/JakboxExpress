@@ -5,13 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Jakbox Express | Tracking</title>
+    <title>Jakbox Express | Calculadora</title>
 
     <!-- Styling -->
     <link href="css/style.css" rel="stylesheet">
 	<link href="css/magnific-popup.css" rel="stylesheet">
 	<link href="//fonts.googleapis.com/css?family=Roboto%3A400%2C700%7CSource+Sans+Pro%3A700%2C900&amp;subset=latin" rel="stylesheet">
-	
+
 	<script src="js/modernizr.custom.24530.js" type="text/javascript"></script>
     <link rel="apple-touch-icon" sizes="57x57" href="images/apple-touch-icon-57x57.png"/>
     <link rel="apple-touch-icon" sizes="60x60" href="images/apple-touch-icon-60x60.png"/>
@@ -34,18 +34,18 @@
     <meta name="msapplication-TileImage" content="images/mstile-144x144.png"/>
     <meta name="msapplication-config" content="images/browserconfig.xml"/>
     <meta name="theme-color" content="#ffffff"/>
-	
+
 </head>
 <body>
-	
+
 	<!-- MAIN PAGE CONTAINER -->
 	<div class="boxed-container">
-		
+
 		<!-- TOP BAR -->
 		<div class="top">
-			
+
 			<div class="container">
- 
+
 				<nav class="top__menu">
 					<ul class="top-navigation js-dropdown">
 						<li>
@@ -53,18 +53,18 @@
 						</li>
 					</ul>
 				</nav>
-			
+
 			</div><!-- /.container -->
-		
+
 		</div><!-- /.top -->
-		
+
 		<!-- HEADER -->
 		<div class="header_container">
-			
+
 			<div class="container">
-				
+
 				<header class="header">
-					
+
 					<div class="header__logo">
 						<a href="index.html">
 							<img class="img-responsive" srcset="images/logo.png" alt="Jakbox Express" src="images/logo.png">
@@ -78,7 +78,7 @@
 							</span>
 						</button>
 					</div><!-- /.header__logo -->
-					
+
 					<div class="header__navigation">
 						<nav class="collapse navbar-collapse" id="cargopress-navbar-collapse">
 							<ul class="main-navigation js-main-nav js-dropdown">
@@ -90,49 +90,59 @@
 							</ul>
 						</nav>
 					</div><!-- /.header__navigation -->
-					
+
 					<div class="header__widgets">
-						
+
+                        <div class="widget-icon-box">
+
+                            <div class="icon-box">
+                                <i class="fa fa-phone"></i>
+                                <h4 class="icon-box__title">Ll&aacute;menos</h4>
+                                <span class="icon-box__subtitle">994-8404</span>
+                            </div>
+
+                        </div>
+
 						<div class="widget-icon-box">
-							
-							<div class="icon-box">	
-								<i class="fa fa-headphones"></i>
-								<h4 class="icon-box__title">Ll&aacute;menos</h4>
-								<span class="icon-box__subtitle">1-888-123-4567</span>
-							</div>
-						
-						</div>
-						
-						<div class="widget-icon-box">
-							
-							<div class="icon-box">	
+
+							<div class="icon-box">
 								<i class="fa fa-clock-o"></i>
 								<h4 class="icon-box__title">Horario Hoy</h4>
 								<span class="icon-box__subtitle" id="schedule"></span>
 							</div>
-						
+
 						</div>
-					
+
 						<div class="widget-icon-box">
-							
+
 							<div class="icon-box">
 								<i class="fa fa-envelope-o"></i>
 								<h4 class="icon-box__title">Escr&iacute;banos</h4>
 								<span class="icon-box__subtitle">info@jakboxexpress.com</span>
 							</div>
-							
+
 						</div>
-					
-						<a target="_self" class="btn btn-info" id="button_requestQuote">REG&Iacute;STRESE</a>
-				
+
+						<div class="widget-icon-box">
+
+							<div class="icon-box">
+								<i class="fa fa-whatsapp"></i>
+								<h4 class="icon-box__title">Chat&eacute;enos</h4>
+								<span class="icon-box__subtitle">6532-2367</span>
+							</div>
+
+						</div>
+
+						<a target="_self" href="index.html#quickQuoteForm_wrapper" class="btn btn-info">REG&Iacute;STRESE</a>
+
 					</div><!-- /.header__widgets -->
-			
+
 				</header>
-			
+
 			</div><!-- /.container -->
-		
+
 		</div><!-- /.header_container -->
-		
+
 		<!-- MAIN TITLE -->
 		<div class="main-title">
 			<div class="container">
@@ -140,7 +150,7 @@
 				<h3 class="main-title__secondary">Conozca el valor aproximado de sus servicios</h3>
 			</div>
 		</div><!-- /.main-title -->
-		
+
 		<!-- BREADCRUMBS -->
 		<div class="breadcrumbs">
 			<div class="container">
@@ -152,17 +162,17 @@
 				</span>
 			</div>
 		</div><!-- /.breadcrumbs -->
-		
+
 		<div class="container" id="track">
-			
+
 			<div class="row">
-			
+
 				<div class="col-sm-8 col-sm-offset-2 margin-bottom-60">
-					
+
 					<p>
 						Seleccione el servicio deseado, introduzca los datos solicitados y haga clic en el bot&oacute;n "Calcular" para saber su costo aproximado. El resultado aparecer&aacute; en detalle debajo del formulario.
 					</p>
-				
+
 					<form class="aSubmit">
 						<div class="row">
 							<div class="col-xs-12 col-md-12">
@@ -198,15 +208,15 @@
 							</div>
 						</div>
 					</form>
-				
+
 				</div><!-- /.col -->
-			
+
                 <div class="col-sm-8 col-sm-offset-2 margin-bottom-60" id="response" style="visibility: hidden;">
-					
+
 					<h3 class="widget-title lined big">
 						<span>RESULTADOS</span>
 					</h3>
-					
+
 					<table class="cargopress-table">
 						<thead>
 							<tr>
@@ -229,31 +239,31 @@
 							</tr>
 						</tbody>
 					</table>
-				
+
 				</div><!-- /.col -->
 			</div><!-- /.row -->
-			
+
 		</div><!-- /.container -->
-		
+
 		<!-- FOOTER -->
 		<footer class="footer">
-			
+
 			<div class="footer-bottom">
-				
+
 				<div class="container">
-					
+
 					<div class="footer-bottom__right">
-						Copyright &copy; 2016&ndash;2022 Jakbox Express. Todos los derechos reservados. 
+						Copyright &copy; 2016&ndash;2022 Jakbox Express. Todos los derechos reservados.
 					</div>
-					
+
 				</div><!-- /.container -->
-				
+
 			</div><!-- /.footer-bottom -->
-			
+
 		</footer>
-		
+
 	</div><!-- /.boxed-container -->
-	
+
 	<script src="js/jquery-2.1.4.min.js" type="text/javascript"></script>
 	<script src="js/bootstrap/carousel.js"></script>
 	<script src="js/bootstrap/transition.js"></script>
@@ -262,11 +272,10 @@
 	<script src="js/bootstrap/validator.js"></script>
 	<script src="js/underscore.js"></script>
 	<script src="js/custom.js"></script>
-	
+
     <script type="text/javascript">
         $( document ).ready(function() {
-            setTodaySchedule();
-            
+
             $( "#service" ).on( "change", function() {
                 var service = $("#service").val();
                 if(service == 1) {
@@ -277,7 +286,7 @@
                 $(".purchase").css('visibility', 'hidden');
                 $("#response").css('visibility', 'hidden');
             });
-            
+
             $( "#calculate" ).on( "click", function() {
                 var realweight = $("#realweight").val();
                 var weight = $("#weight").val();
@@ -310,20 +319,6 @@
             });
         });
         
-        function setTodaySchedule() {
-            var a = new Date().getDay();
-            
-            switch (a) { 
-            	case 0: 
-            		$('#schedule').text('CERRADO');
-            		break;
-            	case 6: 
-            		$('#schedule').text('08:00 - 12:00');
-            		break;
-            	default:
-            		$('#schedule').text('08:00 - 17:00');
-            }
-        };
     </script>
 </body>
 </html>
