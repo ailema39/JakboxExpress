@@ -1,0 +1,113 @@
+body{ background: white;}
+*{ font-family: Verdana, Tahoma; margin: 0; padding: 0;}
+.menu{width: 250px;background-color: #2AABE1;  position: fixed; height: 100%;border-right: 1px solid rgb(126, 126, 126); margin-top: 31px;}
+.menu ul {margin-top: 20px;}
+.menu li { list-style-type: none;}
+.menu li a { display: inline-block; color: white; text-decoration: none; width: 230px; padding: 10px; ;}
+.menu li a:hover{background: rgb(105, 186, 221);}
+.menu li a.selected{ background: rgb(0, 131, 185);}
+.logo { margin-top: 0px; background-color: rgb(241, 241, 241); padding: 10px 0px;  text-align: center;}
+.admin {color:white; text-align: center; padding: 15px 0px;}
+.top-bar{width: 100%; background-color: black; padding: 8px 0px; color: white; text-align: right; font-size: 12px;margin-right: 0px;position: fixed; z-index: 1000;}
+.logout {color: rgb(244, 192, 32);margin-right: 10px;}
+.content {margin-left: 250px;padding: 30px;padding-top: 60px;}
+.title {    font-size: 26px;}
+a.add { font-size: 13px;  background-color: #E0E0E0; text-decoration: none;
+    padding: 7px; color: rgb(0, 131, 185); display: inline-block; line-height: 16px;   border-radius: 2px;
+    border: 1px solid rgb(206, 206, 206);  margin-left: 10px;  transition: background 2s ;  -webkit-transition: all 0.5s;}
+a.add:hover{background: #0083B9; color: white;}
+fieldset {   border: none; }
+label{display: block;  width: 200px; vertical-align: top;margin-bottom: 3px;}
+.add-content p {margin: 10px 0px;position: relative;}
+.add-content textarea { padding: 5px; width: 100%;height: 200px; resize: none; box-sizing: border-box; position: relative;}
+.add-content input, .add-content select {padding: 5px; width: 100%; box-sizing: border-box;position: relative;}
+.add-content {margin-top: 20px;  border: 1px solid rgb(202, 202, 202);  border-radius: 5px;  padding: 10px;background-color: rgb(243, 243, 243);max-width: 600px;}
+.add-content #subtitulo { padding: 0; width: 100%; height: 100px; }
+.add-content .buttons input { float: left; width: 50%;}
+.dropzone {
+  min-height: 150px;
+  border: none !important; background: none !important;
+  padding: 20px 20px;
+}
+.fireUI-table a {  color: rgb(0, 131, 185);}
+.fireUI-table img { width: 30px;}
+.center{ text-align: center;}
+.center a { color: rgb(0, 131, 185); text-decoration: none;}
+.center a:hover { text-decoration: underline;}
+.description {resize: none; height: 300px;width: 100%;}
+.login input[type="text"], .login input[type="password"]  {
+    width: 100%;
+    padding: 5px;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border: 1px solid rgb(187, 187, 187);
+    box-sizing: border-box;
+}
+
+form.login {
+    width: 400px;
+    max-width: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 170px;
+    margin-left: -200px;
+    margin-top: -85px;
+}
+.login div {
+    margin-top: 10px;
+}
+.login input[type="submit"] {
+    border: none;
+    padding: 7px 15px;
+    background-color: #2AABE1;
+    color: white;
+    cursor: pointer;
+}
+.header {
+  /*background-color: #2AABE1;*/
+  background-color: rgb(241, 241, 241);
+  z-index: 2;
+  /* height: 200px; */
+  width: 100%;
+  text-align: center;
+  padding: 50px 0px;
+}
+a.forgot {
+    font-size: 12px;
+    color: black;
+    margin-right: 10px;
+}
+form.login label {
+    width: 100%;
+}
+.error {
+    color: rgb(217, 0, 0);
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+.suc{color: green;
+  background-color: rgb(228, 255, 228);
+  margin-top: 20px;}
+.err{color: red;
+  background-color: rgb(255, 230, 230);
+  margin-top: 20px;}
+
+  a.back {
+  color: black;
+  font-size: 13px;
+  float: right;
+  margin-top: 10px;
+}
+
+a.cpass {
+    color: black;
+    font-size: 13px;
+}
+.pass {text-align: right;}
+img.ui-datepicker-trigger {
+  position: absolute;
+  right: 4px;
+  top: 23px;
+}
